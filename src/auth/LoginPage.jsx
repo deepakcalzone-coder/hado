@@ -15,7 +15,7 @@ export default function LoginPage() {
     setError("");
 
     try {
-      const res = await fetch("http://103.181.108.248:5000/api/login", {
+      const res = await fetch("http://103.181.108.248/:5005/api/login", {
   method: "POST",
   headers: {
     "Content-Type": "application/json",

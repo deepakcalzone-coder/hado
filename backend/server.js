@@ -99,7 +99,7 @@ app.post("/api/login", async (req, res) => {
 app.get("/", (req, res) => {
   res.send("Backend is running successfully");
 });
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 5005;
 
 const startServer = () => {
   try {
