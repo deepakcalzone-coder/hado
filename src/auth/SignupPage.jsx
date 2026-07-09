@@ -16,7 +16,7 @@ export default function SignupPage() {
     setError("");
 
     try {
-      const res = await fetch("http://103.181.108.248/:5005/api/signup", {
+      const res = await fetch("http://103.181.108.248/api/signup", {
   method: "POST",
   headers: {
     "Content-Type": "application/json",
